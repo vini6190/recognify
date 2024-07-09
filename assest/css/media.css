@@ -1,0 +1,256 @@
+@media (max-width:1400px) {
+    h1, h2 {font-size: 44px;    line-height: 47.6px;}
+    h3{font-size: 24px;}
+    .roles-box {
+        
+        width: calc(24% - -11px);
+       
+    }
+}
+
+@media (max-width:1399px){
+    .services-info {
+      
+        margin: 0px 7px 30px;
+    }
+    .services-pera {
+        width: calc(100% - 70px);
+        text-align: left;
+    }
+    .services-img {
+        width: 70px;
+        height: 70px;
+       
+    }
+    .award .award-banner {
+      
+        width: calc(20% - 39px);
+      
+    }
+    .award .award-logo img {
+       
+        height: 80px;
+    }
+    .award .award-logo {
+        width: 90px;
+    }
+    .award h3 {
+        font-size: 45px;
+        
+        margin-bottom: 15px;
+    }
+}
+
+
+
+@media (max-width:1200px) {
+    .roles-box {
+        width: calc(24% - -9px);
+    }
+    h1, h2 {font-size: 36px;line-height: 40px;}
+    .award .award-banner {
+        width: calc(20% - 48px);
+    }
+    .award .award-logo {
+        width: 70px;
+    }
+    .award .award-logo img {
+        height: 65px;
+    }
+}
+
+
+@media (max-width:992px) {
+    .clients .clients-banner {
+        
+        margin: 0 0px;
+    }
+    .unique-banner {
+       
+        margin: 0 0px;
+    }
+    .roles-box:nth-child(3) {
+        border-right: none;
+    }
+    .roles-box:nth-child(4){
+    border-right: 1px solid rgb(217 217 217 / 70%);}
+
+    .roles-box:nth-child(5){
+        border-bottom: 1px solid rgb(217 217 217 / 70%);}
+        .roles-box:nth-child(6){
+            border-bottom: 1px solid rgb(217 217 217 / 70%);
+            border-right: none;
+        }
+        .roles-box:nth-child(8){
+           
+            border-right: 1px solid rgb(217 217 217 / 70%);
+        }
+
+
+    .roles-box {
+        width: calc(24% - -64px);
+    }
+    .award {
+        
+        margin: 0px 0px;
+       
+    }
+    .award .award-banner {
+        width: calc(20% - 60px);
+    }
+    .award h3 {
+        font-size: 35px;
+        margin-bottom: 5px;
+    }
+    .award p {
+       
+        font-size: 24px;
+      
+    }
+    .services-head {
+      
+        padding-top: 30px;
+        margin: 0 0px;
+    }
+    .services-info {
+      
+        margin: 0px 7px 20px;
+    }
+    .services-pera {
+        width: calc(100% - 60px);
+        text-align: left;
+    }
+
+.services-img {
+    width: 60px;
+    height: 60px;
+}
+
+    h1, h2 {font-size: 34px; }
+    header .banner-left span {font-size: 16px;}
+    li.nav-item {
+        padding: 6px 0px;
+        text-align: left;
+        width: 100%;
+    }
+    .navbar-collapse {
+        flex-basis: 100%;
+        flex-grow: 1;
+        align-items: center;
+        margin-top: 25px;
+        height: 100vh;
+    }
+    li.nav-item::before {
+       display: none;
+    }
+    header .home-btn .theme-btn {
+        font-weight: 500;
+       margin-top: 10px;
+        padding: 4px 18px;
+        font-size: 16px;
+    }
+    header .home-btn .theme-btn img {
+       
+        padding-bottom: 3px;
+    }
+    header .banner-left {
+        padding-right: 0px;
+    }
+    .award .award-banner {
+        width: calc(34% - 63px);
+    }
+   
+    .award .award-banner {
+      
+        margin: 0 0px;
+    }
+    .get-info p {
+        padding-right: 0px;
+    }
+    /* .get-touch {
+        background: #f4edf4;
+    } */
+    
+    .get-info {
+      
+       
+        margin-right: 0px;
+    }
+    .get-info::after {
+        display: none;
+      
+        left: -15px;
+       
+        width: calc(100% - -35px);
+    }
+    .roles-box {
+       
+        height: 185px;
+       
+    }
+    .lilnk-section ul li {
+      
+        margin-right: 22px;
+    }
+}
+@media (max-width:767px){
+    .rights {
+        text-align: center;
+        margin-top: 15px;
+        border-top: 1px solid #D0D5DD;
+        padding-top: 5px;
+    }
+    .lilnk-section ul li {
+        margin-right: 0px;
+        display: block;
+        text-align: center;
+    }
+    .form-control {
+        height: 45px;
+     
+        margin-bottom: 15px;
+    }
+    .submit-btn {
+        padding-top: 10px;
+    }
+    .team-img {
+        width: 100%;
+    }
+    .roles-box{
+        border-right:none !important; 
+        width: 100% ;
+        border-bottom: 1px solid rgb(217 217 217 / 70%) !important}
+   
+    .award .award-banner {
+        width: 100%;
+    }
+    .award .award-info {
+        width: auto;
+    }
+    .award .award-banner {
+        margin: 15px 0px;justify-content: center;
+    }
+    header .banner-left p {
+        margin-top: 15px;
+    }
+    header .banner-left .theme-btn {
+        margin-top: 15px;
+    }header .banner-left img {
+        display: block;
+        margin-top: 16px;
+        margin-bottom: 30px;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+    .services-img{opacity: 1;}
+h1, h2 {font-size: 30px;}
+header .banner-slider {
+   
+    height: 225px;
+}
+.unique-logo {
+    margin-bottom: 0px;
+}
+}

@@ -1,0 +1,913 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- Link Swiper's CSS -->
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+  <!-- font Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0, 900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <!-- Theme css -->
+  <link rel="stylesheet" type="text/css" href="assest/css/style.css">
+  <link rel="stylesheet" type="text/css" href="assest/css/media.css">
+
+  <title>Recognify</title>
+  <!-- <link rel="icon" type="image/x-icon" href="assest/images/map-logo.png"> -->
+</head>
+
+<body>
+  <header class="theme-bg-primary">
+    <nav class="navbar navbar-expand-lg theme-bg-secondary">
+      <div class="container">
+        <a class="navbar-brand theme-text-primary" href="#"><img src="assest/images/logo.svg"> </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ms-auto me-auto mb-2 mb-md-0 align-items-center">
+            <li class="nav-item">
+              <a href="#" class="nav-link active theme-text-light" aria-current="page">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link theme-text-light">Team</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link theme-text-light">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link theme-text-light">Contact Us</a>
+            </li>
+
+          </ul>
+
+          <div class="home-btn mob-btn d-block d-lg-none ">
+            <a href="#" class="theme-btn">Get started<img src="assest/images/menu-right-arrow.svg"></a>
+          </div>
+        </div>
+        <div class="home-btn d-none d-lg-block">
+          <a href="#" class="theme-btn">Get started<img src="assest/images/menu-right-arrow.svg"></a>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row home-banner">
+        <div class="col-md-7">
+          <div class="banner-left">
+            <span>A marketplace for creators and brands</span>
+            <h1>Step into an Empowering World: Where Leaders Thrive, Inspire Change, and Succeed.</h1>
+            <p>Unlock your potential with RECOGNIFY. Whether you're getting back to work, starting a business, or need
+              career advice, we're here for you. Our platform helps People succeed, and with a RECOGNIFY mentor, success
+              is closer than you think. Enter your email to start your journey today!</p>
+            <a href="#" class="theme-btn">JOIN US</a>
+            <img src="assest/images/banner-support.svg">
+          </div>
+
+        </div>
+        <div class="col-md-5">
+          <div class="banner-slider">
+            <div class="slider-container">
+              <div class="slider">
+                <div class="slider-item img-shape1">
+                  <div><img src="assest/images/banner/banner-slider1.jpg"></div>
+                </div>
+                <div class="slider-item img-shape2">
+                  <div><img src="assest/images/banner/banner-slider2.jpg"></div>
+                </div>
+                <div class="slider-item img-shape3">
+                  <div><img src="assest/images/banner/banner-slider3.jpg"></div>
+                </div>
+                <div class="slider-item img-shape4">
+                  <div><img src="assest/images/banner/banner-slider4.jpg"></div>
+                </div>
+                <div class="slider-item img-shape5">
+                  <div><img src="assest/images/banner/banner-slider5.jpg"></div>
+                </div>
+                <div class="slider-item img-shape6">
+                  <div><img src="assest/images/banner/banner-slider6.jpg"></div>
+                </div>
+                <div class="slider-item img-shape7">
+                  <div><img src="assest/images/banner/banner-slider7.jpg"></div>
+                </div>
+                <div class="slider-item img-shape8">
+                  <div><img src="assest/images/banner/banner-slider8.jpg"></div>
+                </div>
+                <div class="slider-item img-shape9">
+                  <div><img src="assest/images/banner/banner-slider9.jpg"></div>
+                </div>
+              </div>
+            </div>
+            <div class="slider-container">
+              <div class="reverse_slider">
+                <div class="slider-item img-shape9">
+                  <div><img src="assest/images/banner/banner-slider9.jpg"></div>
+                </div>
+                <div class="slider-item img-shape8">
+                  <div><img src="assest/images/banner/banner-slider8.jpg"></div>
+                </div>
+                <div class="slider-item img-shape7">
+                  <div><img src="assest/images/banner/banner-slider7.jpg"></div>
+                </div>
+                <div class="slider-item img-shape6">
+                  <div><img src="assest/images/banner/banner-slider6.jpg"></div>
+                </div>
+                <div class="slider-item img-shape5">
+                  <div><img src="assest/images/banner/banner-slider5.jpg"></div>
+                </div>
+                <div class="slider-item img-shape4">
+                  <div><img src="assest/images/banner/banner-slider4.jpg"></div>
+                </div>
+                <div class="slider-item img-shape3">
+                  <div><img src="assest/images/banner/banner-slider3.jpg"></div>
+                </div>
+                <div class="slider-item img-shape2">
+                  <div><img src="assest/images/banner/banner-slider2.jpg"></div>
+                </div>
+                <div class="slider-item img-shape1">
+                  <div><img src="assest/images/banner/banner-slider1.jpg"></div>
+                </div>
+                Add more items as needed 
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </header>
+
+
+
+  <section class="partner">
+    <div class="container">
+      <div class="row partner-logo ">
+        <div class="col-sm-6 col-md-4 col-lg-2 mb-5 partner-img">
+          <img src="assest/images/sfs.png">
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-2 mb-5 partner-img">
+          <img src="assest/images/am-experts.png">
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-2 mb-5 partner-img">
+          <img src="assest/images/am-web.png">
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-2 mb-5 partner-img">
+          <img src="assest/images/msme.png">
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-2 mb-5 partner-img">
+          <img src="assest/images/niit.png">
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-2 mb-5 partner-img">
+          <img src="assest/images/sui.png">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+   <section class="unique">
+    <div class="container">
+      <div class="head">
+        <h2>What unique magic does Recognify offer?</h2>
+        <p>We deliver QUALIFIED and SEASONED expertise at your fingertips! With our curated talent network, flexible
+          solutions, and meticulous screening process, you can access top-notch talent - tailored to your needs, on your
+          schedule.</p>
+      </div>
+      <div class="row unique-banner">
+        <div class="col-md-4 mb-4 unique-info">
+          <div class="theme-bg-primary unique-card theme-radius">
+            <div class="unique-logo text-end">
+              <img src="assest/images/verified.svg">
+            </div>
+            <h3>Verified & Proficient</h3>
+            <p class="small-pera">Professionals ready to make an impact.</p>
+          </div>
+
+        </div>
+        <div class="col-md-4 mb-4 unique-info">
+          <div class="theme-bg-primary unique-card theme-radius">
+            <div class="unique-logo text-end">
+              <img src="assest/images/versatile.svg">
+            </div>
+            <h3>Versatile Expertise</h3>
+            <p class="small-pera">Bringing talent from every sector.</p>
+          </div>
+
+        </div>
+        <div class="col-md-4 mb-4 unique-info">
+          <div class="theme-bg-primary unique-card theme-radius">
+            <div class="unique-logo text-end">
+              <img src="assest/images/optimal.svg">
+            </div>
+            <h3>Optimal Delivery</h3>
+            <p class="small-pera">Delivering the best outcomes.</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+  <section class="growth theme-bg-primary">
+    <div class="container">
+      <div class="head text-center">
+        <h2>Our Gro​wth Plan</h2>
+        <p>Discover your path to success with Recognify's customized growth plan. Our simple and practical approach
+          provides personalized guidance, mentorship, and resources to support your journey. Let us help you unlock your
+          potential and turn your aspirations into reality.</p>
+      </div>
+      <div class="row align-items-end growth-plant">
+        <div class="col-md-6 col-lg-3 mb-4 col-md-text-center plant">
+          <img src="assest/images/plant-1.png">
+          <ul>
+            <li>Product development</li>
+            <li>Brand visibility</li>
+            <li>Optimal performance</li>
+          </ul>
+        </div>
+        <div class="col-md-6 col-lg-3 mb-4 col-md-text-center plant">
+          <img src="assest/images/plant-2.png">
+          <ul>
+            <li>Untapped markets</li>
+            <li>New technologies</li>
+            <li>Government support</li>
+          </ul>
+        </div>
+        <div class="col-md-6 col-lg-3 mb-4 col-md-text-center plant">
+          <img src="assest/images/plant-3.png">
+          <ul>
+            <li>New products</li>
+            <li>Train staff</li>
+            <li>Corporate social responsibility</li>
+          </ul>
+        </div>
+        <div class="col-md-6 col-lg-3 mb-4 col-md-text-center plant">
+          <img src="assest/images/plant-4.png">
+          <h3>Success Goals</h3>
+          <ul>
+            <li>Goals achievement after Implementation of targets</li>
+          </ul>
+        </div>
+      </div>
+      <div class="plan-accordian">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                aria-expanded="true" aria-controls="collapseOne">
+                How can your platform help me if I'm unsure about my career direction?
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Our platform offers personalised mentorship and resources to help you clarify your career goals,
+                identify your strengths, and explore different pathways to success.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                I've been out of the workforce for a while. Can your platform help me get back on track?
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Our platform offers personalised mentorship and resources to help you clarify your career goals,
+                identify your strengths, and explore different pathways to success.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                What benefits do I get from joining your platform?
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Our platform offers personalised mentorship and resources to help you clarify your career goals,
+                identify your strengths, and explore different pathways to success.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingfour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                What benefits do I get from joining your platform?
+              </button>
+            </h2>
+            <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Our platform offers personalised mentorship and resources to help you clarify your career goals,
+                identify your strengths, and explore different pathways to success.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+ <section class="services">
+    <div class="container">
+      <div class="head text-center">
+        <h2>Our Specialise Services</h2>
+
+      </div>
+      <div class="services-banner">
+        <div class="row services-head">
+          <div class="col-md-6 col-xl-4">
+            <div class="row  align-items-center services-info theme-bg-primary">
+              <div class="services-img">
+                <img src="assest/images/services-logo.svg">
+              </div>
+              <div class="services-pera">
+                <h3>Education</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-4">
+            <div class="row  align-items-center services-info theme-bg-primary">
+              <div class="services-img">
+                <img src="assest/images/services-logo.svg">
+              </div>
+              <div class="services-pera">
+                <h3>Healthcare</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-4">
+            <div class="row  align-items-center services-info theme-bg-primary">
+              <div class="services-img">
+                <img src="assest/images/services-logo.svg">
+              </div>
+              <div class="services-pera">
+                <h3>Finance and banking</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-4">
+            <div class="row  align-items-center services-info theme-bg-primary">
+              <div class="services-img">
+                <img src="assest/images/services-logo.svg">
+              </div>
+              <div class="services-pera">
+                <h3>Retail</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-4">
+            <div class="row  align-items-center services-info theme-bg-primary">
+              <div class="services-img">
+                <img src="assest/images/services-logo.svg">
+              </div>
+              <div class="services-pera">
+                <h3>manufacturing </h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-4">
+            <div class="row  align-items-center services-info theme-bg-primary">
+              <div class="services-img">
+                <img src="assest/images/services-logo.svg">
+              </div>
+              <div class="services-pera">
+                <h3>Telecommunication</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-4">
+            <div class="row  align-items-center services-info theme-bg-primary">
+              <div class="services-img">
+                <img src="assest/images/services-logo.svg">
+              </div>
+              <div class="services-pera">
+                <h3>Real State</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-4">
+            <div class="row  align-items-center services-info theme-bg-primary">
+              <div class="services-img">
+                <img src="assest/images/services-logo.svg">
+              </div>
+              <div class="services-pera">
+                <h3>Media and Entertainment</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> 
+ <section class="clients theme-bg-primary">
+    <div class="container">
+      <div class="head clients">
+        <h2>Our Clients</h2>
+        <p>At Recognify, our clients are at the heart of everything we do. We work closely with each person and business
+          to understand their needs and help them succeed. Whether you're starting a new career or launching a business,
+          Our services are designed to be easy to use and tailored to your specific goals. We celebrate your success as
+          our own, and we're excited to welcome you to the Recognify community! Your satisfaction is our top priority,
+          and we're dedicated to delivering the best outcomes for every project. These are just a few examples of our
+          best deals, and we can't wait to add you to our list of satisfied clients.</p>
+      </div>
+      <div class="clients-banner">
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 ">
+          <div class="clients-logo">
+            <img src="assest/images/client-logo/windmill.png">
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 ">
+          <div class="clients-logo">
+            <img src="assest/images/client-logo/ganja.png">
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 ">
+          <div class="clients-logo">
+            <img src="assest/images/client-logo/dr-games.png">
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 ">
+          <div class="clients-logo">
+            <img src="assest/images/client-logo/conversion.png">
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 ">
+          <div class="clients-logo">
+            <img src="assest/images/client-logo/cpi.png">
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 ">
+          <div class="clients-logo">
+            <img src="assest/images/client-logo/communities.png">
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 ">
+          <div class="clients-logo">
+            <img src="assest/images/client-logo/british-path.png">
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 ">
+          <div class="clients-logo">
+            <img src="assest/images/client-logo/recruit.png">
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 ">
+          <div class="clients-logo">
+            <img src="assest/images/client-logo/fire.png">
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 ">
+          <div class="clients-logo">
+            <img src="assest/images/client-logo/workapp.png">
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 ">
+          <div class="clients-logo">
+            <img src="assest/images/client-logo/angels.png">
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 ">
+          <div class="clients-logo">
+            <img src="assest/images/client-logo/touch.png">
+          </div>
+        </div>
+      </div> 
+    <div class=" award">
+        <div class=" award-banner">
+          <div class="award-logo">
+            <img src="assest/images/client-logo/projects.svg">
+          </div>
+          <div class="award-info">
+            <h3>100</h3>
+            <p>Projects</p>
+          </div>
+        </div>
+        <div class=" award-banner">
+          <div class="award-logo">
+            <img src="assest/images/client-logo/clients.svg">
+          </div>
+          <div class="award-info">
+            <h3>+5K</h3>
+            <p>Clients</p>
+          </div>
+        </div>
+        <div class=" award-banner">
+          <div class="award-logo">
+            <img src="assest/images/client-logo/partners.svg">
+          </div>
+          <div class="award-info">
+            <h3>+60</h3>
+            <p>Partners</p>
+          </div>
+        </div>
+        <div class=" award-banner">
+          <div class="award-logo">
+            <img src="assest/images/client-logo/awards.svg">
+          </div>
+          <div class="award-info">
+            <h3>8</h3>
+            <p>Awards</p>
+          </div>
+        </div>
+      </div> 
+      <div class="roles">
+        <div class="head">
+          <h2>Popular Roles We Fulfill</h2>
+        </div>
+        <div class="roles-banner">
+          <div class="roles-box">
+            <div class="box-height">
+              <div class="roles-img">
+                <img src="assest/images/client-logo/fulfill-logo/sales.svg">
+              </div>
+              <div class="roles-title">
+                <h5>Sales</h5>
+              </div>
+            </div>
+          </div>
+          <div class="roles-box">
+            <div class="box-height">
+              <div class="roles-img">
+                <img src="assest/images/client-logo/fulfill-logo/marketing.svg">
+              </div>
+              <div class="roles-title">
+                <h5>Marketing</h5>
+              </div>
+            </div>
+          </div>
+          <div class="roles-box">
+            <div class="box-height">
+              <div class="roles-img">
+                <img src="assest/images/client-logo/fulfill-logo/finance.svg">
+              </div>
+              <div class="roles-title">
+                <h5>Finance</h5>
+              </div>
+            </div>
+          </div>
+          <div class="roles-box">
+            <div class="box-height">
+              <div class="roles-img">
+                <img src="assest/images/client-logo/fulfill-logo/content.svg">
+              </div>
+              <div class="roles-title">
+                <h5>Content Development</h5>
+              </div>
+            </div>
+          </div>
+          <div class="roles-box">
+            <div class="box-height">
+              <div class="roles-img">
+                <img src="assest/images/client-logo/fulfill-logo/design.svg">
+              </div>
+              <div class="roles-title">
+                <h5>Design</h5>
+              </div>
+            </div>
+          </div>
+          <div class="roles-box">
+            <div class="box-height">
+              <div class="roles-img">
+                <img src="assest/images/client-logo/fulfill-logo/learning.svg">
+              </div>
+              <div class="roles-title">
+                <h5>Learning & Assessement</h5>
+              </div>
+            </div>
+          </div>
+          <div class="roles-box">
+            <div class="box-height">
+              <div class="roles-img">
+                <img src="assest/images/client-logo/fulfill-logo/technology.svg">
+              </div>
+              <div class="roles-title">
+                <h5>Technology</h5>
+              </div>
+            </div>
+          </div>
+          <div class="roles-box">
+            <div class="box-height">
+              <div class="roles-img">
+                <img src="assest/images/client-logo/fulfill-logo/niche.svg">
+              </div>
+              <div class="roles-title">
+                <h5>Niche Roles</h5>
+              </div>
+            </div>
+          </div>
+
+
+
+        </div>
+      </div> 
+    </div>
+    </div>
+  </section> 
+
+   <section class="team">
+    <div class="container">
+      <div class="head text-center">
+        <h2>Meet The Team</h2>
+      </div>
+      <div class="row team-banner">
+        <div class="col-lg-4 mb-4">
+          <div class="team-wrap theme-bg-primary-light theme-radius team-info">
+            <div class="team-head ">
+              <div class="team-img">
+                <img src="assest/images/team/preeti-patidar.png">
+              </div>
+              <div class="team-name">
+                <h4>Preeti Patidar</h4>
+                <p class="position">CEO</p>
+                <div class="team-social">
+                  <a href="#"><img src="assest/images/team/facebook.svg"></a>
+                  <a href="#"><img src="assest/images/team/tweeter.svg"></a>
+                  <a href="#"><img src="assest/images/team/insta.svg"></a>
+                </div>
+              </div>
+            </div>
+            <p>She was once a trainee, now our CEO, Preeti embodies resilience. Leading Recognify with mentorship, she
+              empowers others, inspiring growth. Join her transformative journey.</p>
+          </div>
+
+        </div>
+        <div class="col-lg-4 mb-4">
+          <div class="team-wrap theme-bg-primary-light theme-radius team-info">
+            <div class="team-head ">
+              <div class="team-img">
+                <img src="assest/images/team/manjula-solanki.png">
+              </div>
+              <div class="team-name">
+                <h4>Manjula Solanki</h4>
+                <p>digital marketer</p>
+                <div class="team-social">
+                  <a href="#"><img src="assest/images/team/facebook.svg"></a>
+                  <a href="#"><img src="assest/images/team/tweeter.svg"></a>
+                  <a href="#"><img src="assest/images/team/insta.svg"></a>
+                </div>
+              </div>
+            </div>
+            <p>Once a nurse, now a digital marketer, Manjula brings compassion and strategy to Recognify. Witness her
+              guiding others to success in her transformative journey.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+
+          <div class="team-wrap theme-bg-primary-light theme-radius team-info">
+            <div class="team-head ">
+              <div class="team-img">
+                <img src="assest/images/team/gaytari-mandloi.png">
+              </div>
+              <div class="team-name">
+                <h4>Gaytari Mandloi</h4>
+                <p>interior designer</p>
+                <div class="team-social">
+                  <a href="#"><img src="assest/images/team/facebook.svg"></a>
+                  <a href="#"><img src="assest/images/team/tweeter.svg"></a>
+                  <a href="#"><img src="assest/images/team/insta.svg"></a>
+                </div>
+              </div>
+            </div>
+            <p>She went from interior designer to director at SFS Webtech Pvt. Ltd., showing incredible determination.
+              Her story reflects the belief that dedication can make anything possible</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>  
+
+   <section class="get-touch ">
+    <div class="container">
+      <div class="row align-items-baseline get-banner">
+        <div class="col-lg-6 ">
+          <div class="get-info">
+
+
+            <h2>Why Recognify</h2>
+            <p>At Recognify, we're not just another platform we're your dedicated partner in success. Our team of
+              seasoned
+              professionals is here to provide tailored support every step of the way. With a proven track record of
+              delivering results, we've empowered countless individuals and businesses to achieve remarkable success.
+              What
+              truly sets us apart is our supportive community ethos. When you join Recognify, you're not just accessing
+              a
+              platform; you're becoming part of a network of like-minded individuals committed to mutual growth. With a
+              focus on continuous improvement, we're always refining our services to better serve you. Choose Recognify,
+              and let us empower you to reach new heights.</p>
+          </div>
+        </div>
+        <div class="col-lg-6 ">
+          <div class="get-form">
+
+
+            <h2>Get in tou​ch!</h2>
+            <form>
+
+
+              <label for="exampleInputName" class="form-label">Enter your Name</label>
+              <input type="name" class="form-control theme-bg-primary" id="exampleInputName"
+                aria-describedby="namelHelp">
+
+              <label for="exampleInputEmail1" class="form-label">Enter a valid email address</label>
+              <input type="email" class="form-control theme-bg-primary" id="exampleInputEmail1"
+                aria-describedby="emailHelp">
+
+
+              <div class="form-check-box">
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="join" checked>
+                  <label class="form-check-label" for="join">
+                    Join
+                  </label>
+                </div>
+                <div class="form-check ms-4">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="hire">
+                  <label class="form-check-label" for="hire">
+                    Hire
+                  </label>
+                </div>
+              </div>
+              <div class="form-floating">
+                <textarea class="form-control theme-bg-primary" placeholder="Leave a comment here"
+                  id="floatingTextarea2"></textarea>
+
+              </div>
+
+              <div class="submit-btn">
+                <button type="submit" class="theme-btn">Submit</button>
+              </div>
+
+
+
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>  
+
+
+  <footer class="theme-bg-primary">
+    <div class="container">
+      <div class="row justify-content-between contact-section">
+        <div class="row justify-content-end mb-5 col-md-6 col-lg-3 contact-banner">
+          <div class="row contact-space">
+            <div class="contact-icon">
+              <img src="assest/images/footer/tell.svg">
+            </div>
+            <div class="contact-info">
+              <p>Tel</p>
+              <a href="tel:913104372766">310-437-2766</a>
+            </div>
+          </div>
+
+
+        </div>
+        <div class="row justify-content-end mb-5 col-md-6 col-lg-3 contact-banner">
+          <div class="row contact-space">
+            <div class="contact-icon">
+              <img src="assest/images/footer/mail.svg">
+            </div>
+            <div class="contact-info">
+              <p>Mail</p>
+              <a href="mailto:tunreal@outlook.com">unreal@outlook.com</a>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-end mb-5 col-md-6 col-lg-3 contact-banner">
+          <div class="row contact-space">
+            <div class="contact-icon">
+              <img src="assest/images/footer/location.svg">
+            </div>
+            <div class="contact-info">
+              <p>Address</p>
+              <p class="address">
+                P.no.117, Ratanlok Colony, Vijay Nagar, Indore, MP 452010
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-end mb-5 col-md-6 col-lg-3 contact-banner">
+          <div class="row contact-space">
+            <div class="contact-icon">
+              <img src="assest/images/footer/fax.svg">
+            </div>
+            <div class="contact-info">
+              <p>Fax</p>
+              <p class="address">
+                +1-000-0000
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mail-section">
+        <div class="row align-items-center mail-banner">
+          <div class="col-md-6">
+            <h5>Newsletter</h5>
+            <p>Be the first one to know about discounts, offers and events</p>
+          </div>
+          <div class="col-md-6">
+            <div class="footer-mail">
+              <form>
+
+                <input type="email" class="form-control theme-bg-primary" id="footermail" aria-describedby="emailHelp"
+                  placeholder="Enter your email">
+
+                <button type="submit" class="theme-btn">Submit</button>
+
+
+
+
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row lilnk-section">
+        <div class="col-md-8">
+          <ul>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Privacy policy</a></li>
+            <li><a href="#">Sitemap</a></li>
+            <li><a href="#">Terms of Use</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <div class="rights">
+            <p>© 2024, All Rights Reserved</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer> 
+
+
+
+
+  <!-- Vendor JS Files -->
+  <!-- CDN jquery.min.js 3.7.1 -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="assest/js/form.js"></script>
+
+  <!-- CDN Bootstrap Bundle 5.0.2 -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script>
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <script src="assest/js/main.js"></script>
+
+  <script src="assest/js/map.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBegTjbTlgKqr7F9GsPIx7B4vVxqjvQkGw&callback=Mapinit">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      direction: "vertical",
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
+</body>
+
+</html>
